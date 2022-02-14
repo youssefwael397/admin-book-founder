@@ -1,0 +1,30 @@
+/* start navbar */
+:root {
+  --brand-color: #ff6565;
+  --nav-bg: #343a40;
+}
+
+.bgColor {
+  background-color: var(--nav-bg);
+}
+
+.navbar-dark .navbar-brand {
+  font-size: 25px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover {
+  color: var(--brand-color);
+}
+
+.navbar-dark .navbar-brand span {
+  color: var(--brand-color);
+  transition: all 0.2s ease-in-out;
+}
+.navbar-dark .navbar-brand:hover span {
+  color: #fff;
+}
+.nav-link {
+  margin-right: 20px;
+}
