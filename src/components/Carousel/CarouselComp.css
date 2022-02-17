@@ -1,0 +1,17 @@
+:root {
+  --brand-color: #ff6565;
+  --nav-bg: #343a40;
+}
+
+.carousel-inner {
+  color: aliceblue;
+  height: 70vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('./second-slide.jpg');
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel .carousel-item {
+  margin-top: 27vh;
+}

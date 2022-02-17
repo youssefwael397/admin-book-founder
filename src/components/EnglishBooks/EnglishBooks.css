@@ -1,0 +1,31 @@
+ul {
+  font-size: 18px;
+  line-height: 50px;
+  list-style: none;
+}
+li button.btn {
+  color: aliceblue;
+  background-color: #ff6565;
+  border: 1px solid #ff6565;
+}
+li button:hover {
+  color: #ff6565 !important;
+  background-color: aliceblue;
+  border: 1px solid #ff6565;
+}
+.arabic {
+  direction: rtl;
+  font-family: "Tajawal", sans-serif;
+}
+.arabic h3 {
+  font-weight: 600;
+}
+.img {
+  height: 100%;
+  opacity: 0.85;
+  transition: all 0.3s ease-in-out;
+}
+.img:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 15px #000;
+}
